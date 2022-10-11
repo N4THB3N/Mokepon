@@ -60,3 +60,21 @@ body{
 input{
     display: none;
 }
+
+#seleccionar-ataque{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.boton-de-ataque{
+    background-color: #035397;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;    
+    border: transparent;
+    width: 100px;
+    color: white;   
+    font-family: 'Poppins', sans-serif;     
+}
