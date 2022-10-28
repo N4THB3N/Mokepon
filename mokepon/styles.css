@@ -78,7 +78,7 @@ input:checked + label{
     box-sizing: border-box;
     border-radius: 20px;    
     border: transparent;
-    width: 100px;
+    width: 80px;
     color: white;   
     font-family: 'Poppins', sans-serif;     
 }
@@ -118,9 +118,33 @@ input:checked + label{
     align-items: center;
 }
 
+#ver-mapa{
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+}
+
+#ver-mapa button{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;    
+}
+
 @media(max-width:360px){
     .tarjetas, .tarjetas-ataques{
         flex-direction: column;
-    }
-    
+    }   
+}
+
+@media(max-width:300px){
+    #ver-mapa div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    } 
 }
